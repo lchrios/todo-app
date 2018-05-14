@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Task from './Task/Task';
 import TaskForm from './TaskForm/TaskForm';
 import { DB_CONFIG } from './Config/config';
-import firebase from '@firebase/app';
-import '@firebase/database'; 
+import firebase from 'firebase/app';
+import 'firebase/database'; 
 import './App.css';
 
 class App extends Component {
